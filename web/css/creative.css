@@ -163,8 +163,8 @@ aside {
 		width: 80px;
 		padding: 3px;
 		position: relative;
-		top: -5px;
-		left: -10px;
+		top: -12px !important;
+		left: -90px !important;
 		
 	}
 
@@ -661,4 +661,20 @@ video{
 
 footer .fa {
 	color:#ffffff;
+}
+@media (min-width: 768px) {
+		.navbar-icon-collapsed {
+			visibility: hidden;
+			
+		
+		}
+	
+}
+
+@media (max-width: 768px) {
+		.navbar-icon-default {
+			visibility: hidden;
+		
+		}
+	
 }
